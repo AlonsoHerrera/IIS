@@ -1,0 +1,39 @@
+body{
+	background-image:url(imgs/fondo3.jpg); 
+	background-position: center center; 
+	background-repeat:no-repeat;
+	 /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando  la altura del
+	  contenido supere la altura de la imagen. */
+	background-attachment: fixed;
+     /*reescalar cuando se cambia el ancho de ventana
+     del navegador */
+  background-size: cover;
+  /*fondo de respaldo*/
+  background-color: #464646;
+
+}
+
+header{
+
+    text-align: center;
+}
+
+
+#j4{
+	padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	border-radius: 2px;
+
+}
+header h1{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 60px;
+    padding-bottom: 10px;
+}

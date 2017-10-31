@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GameStock</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="layout_style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="contenedor">
+    <header>
+      <h1> Video Game Stock</h1>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">VideoGameStock<span class="sr-only">(current)</span></a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="#">Consolas</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <section>
+      <div class="conte">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+       <div class="carousel-inner">
+          <div class="item active">
+              <img src="imgs/j1.jpg" alt="Los Angeles" style="width:100%;">
+            <div class="carousel-caption"></div>
+          </div>
+          <div class="item">
+              <img src="imgs/j2.jpg" alt="Chicago" style="width:100%;">
+            <div class="carousel-caption"> </div>
+          </div>
+          <div class="item">
+              <img src="imgs/j3.jpg" alt="New York" style="width:100%;">
+            <div class="carousel-caption"></div>
+          </div> 
+        </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#myCarousel" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+           <span class="sr-only">Next</span>
+         </a>
+        </div>
+      </div>
+      <article id="art_1">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <img id="j4" src="imgs/j4.jpg">            
+            <h1 class="display-3">FIFA 18</h1>
+            <p class="lead">Contamos con el mas nuevo titulo del video jugo FIFA. Ademas ofrecemos la edicion normal, deluxe y legacy para consolas ps4 y x-box one.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
