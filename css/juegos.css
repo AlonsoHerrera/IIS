@@ -1,0 +1,14 @@
+.card-body {
+ 	text-align: center;
+ }
+
+ #img{
+ 		padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: center;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	border-radius: 2px;
+ }

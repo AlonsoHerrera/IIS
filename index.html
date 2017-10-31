@@ -3,7 +3,9 @@
 <head>
 	<title>GameStock</title>
 	<link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="layout_style.css">
+  <link rel="stylesheet" type="text/css" href="./css/layout_style.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -24,15 +26,15 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">VideoGameStock<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="index.html">VideoGameStock<span class="sr-only">(current)</span></a></li>
                 <li><a href="juegos.html">Juegos</a></li>
-                <li><a href="#">Consolas</a></li>
+                <li><a href="consolas.html">Consolas</a></li>
               </ul>
             </div>
           </div>
         </nav>
     </header>
-    <section>
+    <section id="section">
       <div class="conte">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -73,7 +75,44 @@
           </div>
         </div>
       </article>
+      <article id="art_2">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Donde estamos ubicados?</h4>
+                  <p class="card-text">Somos una tienda completamente virtual por lo que todos nuestro productos se pagan en linea y se entregan por medio de envios por correos de Costa Rica.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Contamos con un sistema de apartados</h4>
+                <p class="card-text">Puedes reservar tu video jugeo favorito con un plazo de 30 dias para cancelarlo.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      </article>
+      <article id="art_3">
+        <div class="card mb-3">
+           <img class="card-img-top" src="imgs/consolas.jpg" >
+           <div class="card-body">
+             <h4 class="card-title">Compramos y vendemos consolas retro!</h4>
+             <p class="card-text">Si tienes una consola retro que ya no usas ola quieres cambiear por una de nueva generacion, nosotros la aceptamos como parte del pago de tu nueva consola.</p>
+           </div>
+        </div>
+      </article>
     </section>
+    <footer>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Contactanos en:</h4>
+          <p class="card-text"> <a href="mailto:alonsohf055@gmial.com">Gmail</a>Tel: 8742-4710</p>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
