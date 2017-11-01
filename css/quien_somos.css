@@ -1,0 +1,11 @@
+ .card-body{
+	margin-left: 50px; 
+	text-align: center;
+}
+.card-img-top{
+    width: 100%;
+    height: 400px;
+}
+.card-body{
+	padding-right: 60px;
+}
